@@ -4,7 +4,10 @@ class LinkedList():
     
     def __repr__(self):
        return f"Instance of LinkedList  head exists: {bool(self.head)} len: {len(self)}"
-    
+       
+    def __str__(self):
+        return "Instance of LinkedList"
+        
     def __len__(self):
         i = 0
         p = self.head
@@ -16,11 +19,14 @@ class LinkedList():
     def __delitem__(self, key):
         temp = self[key + 1]
         if key == 0:
+            deleted = self.head
             del self.head
             self.head = temp
         else:
+            deleted = self[key]
             del self[key]
             self[key - 1].next = temp
+        return deleted
             
     def __getitem__(self, key):
         i = 0
@@ -44,8 +50,7 @@ class LinkedList():
         while node.next != None:
             node = node.next
         node.next = temp
-            
-    
+     
     def isEmpty():
         return self.head == None
 
