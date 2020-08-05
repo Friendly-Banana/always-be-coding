@@ -20,3 +20,12 @@
  * [Single-Source Shortest Paths — Dijkstra’s Algorithm](/)
  * [All-Pairs Shortest Paths — Floyd Warshall Algorithm](/)
 #### Data Structures
+ * [vector (dynamic array)](/)
+ * [linked list](/)
+ * [stack](/)
+ * [queue](/)
+ * [circular queue](/)
+ * [hash map](/)
+ * [set](/)
+ * [priority queue](/)
+ * [binary search tree](/)
