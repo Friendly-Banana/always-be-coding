@@ -19,3 +19,4 @@
  * [Kruskal’s Algorithm for finding Minimum Spanning Tree](/)
  * [Single-Source Shortest Paths — Dijkstra’s Algorithm](/)
  * [All-Pairs Shortest Paths — Floyd Warshall Algorithm](/)
+#### Data Structures
