@@ -27,5 +27,5 @@
  * [Circular Queue](/)
  * [Hash Map](/)
  * [Set](/)
- * [priority Queue](/)
+ * [Priority Queue](/)
  * [Binary Search Tree](/)
