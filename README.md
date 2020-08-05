@@ -21,7 +21,7 @@
  * [All-Pairs Shortest Paths — Floyd Warshall Algorithm](/)
 #### Data Structures
  * [Vector (dynamic array)](/)
- * [Linked List](/blob/master/LinkedList.py)
+ * [Linked List](/LinkedList.py)
  * [Stack](/)
  * [Queue](/)
  * [Circular Queue](/)
