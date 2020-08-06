@@ -22,10 +22,10 @@
 #### Data Structures
  * [List / Vector (dynamic array)](/List.py)
  * [Linked List](/LinkedList.py)
+ * [Set](/Set.py)
  * [Stack](/Stack.py)
  * [Queue](/Queue.py)
  * [Circular Queue](/)
- * [Hash Map](/HashMap.py)
- * [Set](/Set.py)
  * [Priority Queue](/PriorityQueue.py)
+ * [Hash Map](/HashMap.py)
  * [Binary Search Tree](/BinarySearchTree.py)
