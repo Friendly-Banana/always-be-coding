@@ -1,7 +1,7 @@
 class CircularQueue():
     def __init__(self, length):
         self.length = length
-        self.items = list()
+        self.items = [None for _ in range(length)]
         self.reader = 0
         self.writer = 0
         
@@ -13,6 +13,12 @@ class CircularQueue():
     def write(self, *values):
         for value in values:
             nextIndex = (self.writer + 1) % self.length
-            if self.writer != nextIndex:
+            if self.reader != nextIndex:
                 self.items[self.writer] = value
                 self.writer = nextIndex
+                
+    def isEmpty(self):
+        return self.reader == self.writer
+        
+    def isFull(self):
+        return self.reader == (self.writer + 1) % self.length
