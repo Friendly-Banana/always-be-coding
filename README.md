@@ -25,7 +25,7 @@
  * [Set](/Set.py)
  * [Stack](/Stack.py)
  * [Queue](/Queue.py)
- * [Circular Queue](/)
+ * [Circular Queue](/CircularQueue.py)
  * [Priority Queue](/PriorityQueue.py)
  * [Hash Map](/HashMap.py)
  * [Binary Search Tree](/BinarySearchTree.py)
