@@ -2,8 +2,7 @@
 
 ### Playground to implement common things
 #### Algorithmes 
- * [Insertion sort, Selection sort,](/)
- * [Merge Sort, Quicksort](/)
+ * [Insertion sort, Selection sort, Merge Sort, Quicksort](/Algorithmes/SortTypes.py)
  * [Binary Search](/)
  * [Breadth First Search (BFS)](/)
  * [Depth First Search (DFS)](/)
