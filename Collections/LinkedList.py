@@ -1,6 +1,8 @@
 class LinkedList():
-    def __init__(self):
+    def __init__(self, *values):
         self.head = None
+        for value in values:
+            self.append(value)
     
     def __repr__(self):
        return f"Instance of LinkedList  head exists: {bool(self.head)} len: {len(self)}"
